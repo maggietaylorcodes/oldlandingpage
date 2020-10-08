@@ -1,0 +1,110 @@
+body {
+  font-family: 'Zilla Slab', serif;
+  display: inline;
+}
+/* Code below needed to correct uneeded scroll bar space on Chrome */
+html {
+  overflow-y: overlay;
+}
+
+.big-heading {
+  font-size: 3.4rem;
+  color: white;
+  line-height: 1.5;
+  padding-left: 40px;
+}
+
+.jumbotron .lead {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.jumbotron .display-4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.web-developer {
+  background-image: url("images/title-image.png");
+  font-weight: 700;
+}
+
+.about-section {
+  background-color: #407088;
+}
+.jumbotron {
+    background-color:transparent !important;
+
+}
+
+.container-fluid {
+  background-color: #394989;
+
+}
+.column {
+  flex: 100%;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+
+
+.pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+/*below is the code I used to make the carousel smaller and center it*/
+#carouselExampleControls {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom-container {
+margin: auto;
+display: block;
+text-align: center !important;
+padding-top: 20px;
+background-color: #394989;
+color: white;
+padding-bottom: 15px;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+.booger {
+width: 150px;
+height: 150px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
